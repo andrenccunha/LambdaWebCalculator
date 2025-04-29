@@ -1,0 +1,20 @@
+{
+	"AWSTemplateFormatVersion": "2010-09-09",
+	"Description": "AWS CloudFormation Template for deploying a simple web application",
+	"Resources": {
+		"MessageQueue": {
+			"Type": "AWS::SQS::Queue",
+			"Properties": {
+				"QueueName": "ChapterMessageQueue",
+				"VisibilityTimeout": 30,
+				"MessageRetentionPeriod": 86400
+			}
+		}
+	},
+	"Outputs": {
+		"MessageQueueUrl": {
+			"Description": "URL of the SQS queue",
+			"Value": { "Ref": "MessageQueue" }
+		}
+	}
+}

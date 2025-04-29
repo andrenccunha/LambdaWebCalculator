@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaWebCalculator", "LambdaWebCalculator\LambdaWebCalculator.csproj", "{14AB36C3-8D50-63A7-76F0-7DF915C1EBB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppHost", "AppHost\AppHost.csproj", "{B14C6E79-6107-4B6C-81E4-C8AF8FCEF8A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogToDynamoDB", "LogToDynamoDB\LogToDynamoDB.csproj", "{BAD68E33-3DEE-43CB-36C8-F0767831B336}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14AB36C3-8D50-63A7-76F0-7DF915C1EBB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14AB36C3-8D50-63A7-76F0-7DF915C1EBB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14AB36C3-8D50-63A7-76F0-7DF915C1EBB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14AB36C3-8D50-63A7-76F0-7DF915C1EBB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B14C6E79-6107-4B6C-81E4-C8AF8FCEF8A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B14C6E79-6107-4B6C-81E4-C8AF8FCEF8A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B14C6E79-6107-4B6C-81E4-C8AF8FCEF8A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B14C6E79-6107-4B6C-81E4-C8AF8FCEF8A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAD68E33-3DEE-43CB-36C8-F0767831B336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAD68E33-3DEE-43CB-36C8-F0767831B336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAD68E33-3DEE-43CB-36C8-F0767831B336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAD68E33-3DEE-43CB-36C8-F0767831B336}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EE17ACA-44AC-4858-AF29-78B9E9A2B208}
+	EndGlobalSection
+EndGlobal
